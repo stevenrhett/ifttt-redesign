@@ -3,16 +3,14 @@ import MainTabNav from "./MainTabNav";
 import StoryCard from "./StoryCard";
 import Footer from "./Footer";
 
+
 const MainContent = () => {
     return (
-        <div>
-            <div className="w-1/2 mx-auto mt-14">
-                <h2 className="text-center text-5xl font-bold ">Explore</h2>
-                <MainTabNav/>
-                <StoryCard/>
-                <Footer/>
+        <div className="w-1/2 mx-auto mt-12">
+            <h2 className="text-center font-bold text-7xl">Explore</h2>
 
-            </div>
+            <MainTabNav/>
+
 
         </div>
     );
