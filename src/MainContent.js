@@ -10,7 +10,7 @@ const MainContent = () => {
             <h2 className="text-center font-bold text-7xl">Explore</h2>
 
             <MainTabNav/>
-
+            <Footer/>
 
         </div>
     );

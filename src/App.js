@@ -7,7 +7,7 @@ function App() {
       <div>
         <TopNav/>
         <MainContent/>
-        <Footer/>
+
       </div>
   )
 }
