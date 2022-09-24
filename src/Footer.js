@@ -11,6 +11,8 @@ const Footer = () => {
             <a>Careers</a>
 
             <a>Contact us</a>
+
+            <a>Privacy</a>
         </footer>
 
     );
