@@ -15,7 +15,7 @@ const StoriesCard = () => {
         username: 'gbottoms1'
     }, {
         id: 3,
-        story: 'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
+        story: 'Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
         backgroundImage: 'http://dummyimage.com/1200x600.png/ff4444/ffffff',
         username: 'skimbling2'
     }, {
@@ -53,3 +53,6 @@ const StoriesCard = () => {
 };
 
 export default StoriesCard;
+
+
+
