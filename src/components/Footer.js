@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
 
-        <footer className="flex space-x-4 mt-10 justify-evenly font-bold text-lg mb-20">
+        <footer className="flex space-x-4 justify-center mt-10  font-bold text-lg mb-20">
             <a>About</a>
 
             <a>Help</a>

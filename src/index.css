@@ -3,9 +3,3 @@
 @tailwind utilities;
 
 
-.tab {
-    @apply font-bold text-gray-800 text-lg;
-}
-.tab-active {
-    @apply border-b-4 border-gray-800 pb-6;
-}
