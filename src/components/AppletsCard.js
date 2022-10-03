@@ -1,19 +1,20 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
-const AppletsCard =  ({img,text}) => {
+const AppletsCard =  ({img,title,alt}) => {
 
 
     return (
 
-//figure this stuff out
+
         <div className="flex m-1">
             <div className="flex-auto rounded-xl ml-0 h-32 w-full bg-blue-400 mx-1 my-1">
                 <h2 className="text-center text-white font-bold"
-                    text={'Applets for your morning routine'}>{text}</h2>
-                <img src={"https://placeimg.com/400/225/people"}>{img}</img>
+                    title={'Applets for your morning routine'}>{title}</h2>
+                <img src={img} alt={alt}></img>
             </div>
 
-  //figure this out
+
 
         </div>
 
