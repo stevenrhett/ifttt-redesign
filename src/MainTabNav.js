@@ -3,7 +3,11 @@ import StoryCard from "./StoryCard";
 
 const MainTabNav = () => {
     return (<div>
-        <div className="tab
+
+        <div>
+
+            <div className="tab
+
            mt-10 w-full text-center p-1 font-bold">
             <a className="tab">All</a>
             <a className="tab">Applets</a>
@@ -33,7 +37,11 @@ const MainTabNav = () => {
         <StoryCard text={"Getting started with gaming as a career"} img={"https://placeimg.com/400/225/people"}/>
 
 
+
     </div>);
+
+        </div>);
+
 };
 
 export default MainTabNav;

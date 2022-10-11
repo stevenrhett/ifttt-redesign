@@ -3,14 +3,14 @@ import MainContent from "./MainContent";
 
 
 function App() {
-  return(
-      <div>
-        <TopNav/>
-        <MainContent/>
+    return (
+        <div>
+            <TopNav/>
+            <MainContent/>
 
 
-      </div>
-  )
+        </div>
+    )
 }
 
 export default App;
