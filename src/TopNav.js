@@ -2,7 +2,11 @@ import React from 'react';
 
 const TopNav = () => {
     return (<div>
+
+           
+
             <div className="navbar bg-base-100 ">
+
                 <div className="flex-1">
                     <a className="btn btn-ghost normal-case text-3xl font-bold">IFTTT</a>
                     <a className="btn bg-green-600 border-0 rounded-full text-black">Do more with your notes</a>
