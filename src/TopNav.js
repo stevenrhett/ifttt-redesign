@@ -10,7 +10,15 @@ import {Link} from 'react-router-dom';
 
 const TopNav = () => {
     return (<div>
+
             <div className="navbar bg-base-100">
+
+
+           
+
+            
+
+
                 <div className="flex-1">
                     <Link className="btn btn-ghost normal-case text-3xl font-bold" to="/">IFTTT</Link>
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

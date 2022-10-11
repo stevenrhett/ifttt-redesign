@@ -4,10 +4,6 @@ const StoriesCard = () => {
     return
 
 
-
-
-
-
 };
 
 export default StoriesCard;

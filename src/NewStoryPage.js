@@ -24,9 +24,12 @@ const NewStoryPage = () => {
 
         const result = await response.text();
 
+
+
         console.log(result);
         console.log('Added new story');
     };
+
 
     return (
         <div>
