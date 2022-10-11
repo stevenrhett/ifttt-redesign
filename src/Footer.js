@@ -1,21 +1,19 @@
 import React from 'react';
 
 const Footer = () => {
-    return (
-
+    return (<div>
         <footer className="flex space-x-4 mt-10 justify-evenly font-bold text-lg mb-20">
-            <a>About</a>
+            <a className="#">About</a>
 
-            <a>Help</a>
+            <a className="#">Help</a>
 
-            <a>Careers</a>
+            <a className="#">Careers</a>
 
-            <a>Contact us</a>
+            <a className="#">Contact us</a>
 
-            <a>Privacy</a>
+            <a className="#">Privacy</a>
         </footer>
-
-    );
+    </div>);
 };
 
 export default Footer;
