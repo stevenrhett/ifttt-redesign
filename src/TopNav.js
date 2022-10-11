@@ -1,8 +1,7 @@
 import React from 'react';
 
 const TopNav = () => {
-    return (
-        <div>
+    return (<div>
             <div className="navbar bg-base-100 ">
                 <div className="flex-1">
                     <a className="btn btn-ghost normal-case text-3xl font-bold">IFTTT</a>

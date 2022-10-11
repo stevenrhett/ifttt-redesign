@@ -2,8 +2,7 @@ import React from 'react';
 import StoryCard from "./StoryCard";
 
 const MainTabNav = () => {
-    return (
-        <div>
+    return (<div>
             <div className="tab
            mt-10 w-full text-center p-1 font-bold">
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -38,8 +37,7 @@ const MainTabNav = () => {
             <StoryCard text={"Getting started with gaming as a career"} img={"https://placeimg.com/400/225/people"}/>
 
 
-        </div>
-    );
+        </div>);
 };
 
 export default MainTabNav;
